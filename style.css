@@ -1,0 +1,59 @@
+#main-header {
+    text-align: center;
+}
+
+#text-direction-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+#buttons-container {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    position: center;
+    float: center;
+    align-items: center;
+
+
+    justify-content: center;
+    gap:10px; 
+}
+
+#countdown {
+    text-align: right;
+}
+
+#title_result,  #right_questions, #time_left, #scores, #submission{    
+    align-items: center;
+    display: flex;
+    position: center;
+    float: center;
+    align-items: center;
+
+
+    justify-content: center;
+    gap:10px;
+
+
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#title_result, #right_questions, #time_left, #scores, #text_section {
+    flex-direction: column;
+}
+
+
+#submission{
+    flex-direction: row;
+}
+
+
+#title_result {
+    font-size:36px;
+}
+
+
